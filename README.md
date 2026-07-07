@@ -1,17 +1,29 @@
-# Repo Manager via Github Actions
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+[update-readmes]   Mode: rewrite — migrating to template structure...
+# gha-repo-manager
 
-<!-- action-docs-description -->
-## Description
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/gha-repo-manager)
 
-Manage your Github repo(s) settings and secrets using Github Actions and a yaml file
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
+## Architecture
 
-<!-- action-docs-description -->
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
+
+## Install
+
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
+
+```bash
+git clone https://github.com/Interested-Deving-1896/gha-repo-manager.git
+cd gha-repo-manager
+```
 
 ## Usage
+
 
 This action manages your repo from a yaml file. You can manage:
 
@@ -56,72 +68,51 @@ jobs:
 ```
 
 <!-- action-docs-inputs -->
-## Inputs
 
-| parameter | description | required | default |
-| - | - | - | - |
-| action | What action to take with this action. One of validate, check, or apply. Validate will validate your settings file, but not touch your repo. Check will check your repo with your settings file and output a report of any drift. Apply will apply the settings in your settings file to your repo | `false` | check |
-| settings_file | What yaml file to use as your settings. This is local to runner running this action. | `false` | .github/settings.yml |
-| repo | What repo to perform this action on. Default is self, as in the repo this action is running in | `false` | self |
-| github_server_url | Set a custom github server url for github api operations. Useful if you're running on GHE. Will try to autodiscover from env.GITHUB_SERVER_URL if left at default | `false` | none |
-| token | What github token to use with this action. | `true` |  |
+## Configuration
 
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
 
+## CI
 
-<!-- action-docs-inputs -->
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
 
-<!-- action-docs-outputs -->
-## Outputs
+## Mirror chain
 
-| parameter | description |
-| - | - |
-| result | Result of the action |
-| diff | Diff of this action, dumped to a json string |
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/gha-repo-manager`](https://github.com/Interested-Deving-1896/gha-repo-manager) and mirrored through:
 
+```
+Interested-Deving-1896/gha-repo-manager  ──►  OpenOS-Project-OSP/gha-repo-manager  ──►  OpenOS-Project-Ecosystem-OOC/gha-repo-manager
+```
 
-
-<!-- action-docs-outputs -->
-
-<!-- action-docs-runs -->
-## Runs
-
-This action is a `docker` action.
-
-
-<!-- action-docs-runs -->
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
 
 ## Contributors
 
-Please see our [Contribution Guide](./CONTRIBUTING.md) for more info on how you can contribute. All contributors and participants in this repo must follow our [Code of Conduct](./CODE_OF_CONDUCT.md).
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tbody>
-    <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/andrewthetechie"><img src="https://avatars.githubusercontent.com/u/1377314?v=4?s=100" width="100px;" alt="Andrew"/><br /><sub><b>Andrew</b></sub></a><br /><a href="#ideas-andrewthetechie" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/andrewthetechie/gha-repo-manager/commits?author=andrewthetechie" title="Tests">⚠️</a> <a href="https://github.com/andrewthetechie/gha-repo-manager/commits?author=andrewthetechie" title="Code">💻</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/actuarysailor"><img src="https://avatars.githubusercontent.com/u/24359398?v=4?s=100" width="100px;" alt="shiro"/><br /><sub><b>shiro</b></sub></a><br /><a href="https://github.com/andrewthetechie/gha-repo-manager/issues?q=author%3Aactuarysailor" title="Bug reports">🐛</a> <a href="https://github.com/andrewthetechie/gha-repo-manager/commits?author=actuarysailor" title="Code">💻</a></td>
-    </tr>
-  </tbody>
-</table>
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
 
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
+## Origins
 
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
+## Resources
 
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
 
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
+## License
 
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+<!-- AI:start:license -->
+[MIT](https://github.com/Interested-Deving-1896/gha-repo-manager/blob/main/LICENSE) © 2026 [Interested-Deving-1896](https://github.com/Interested-Deving-1896)
+<!-- AI:end:license -->
