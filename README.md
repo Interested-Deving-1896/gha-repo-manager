@@ -102,8 +102,8 @@ Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-
 |---|---|
 | [@andrewthetechie](https://github.com/andrewthetechie) | 208 |
 | [@dependabot[bot]](https://github.com/apps/dependabot) | 131 |
+| [@Interested-Deving-1896](https://github.com/Interested-Deving-1896) | 10 |
 | [@actuarysailor](https://github.com/actuarysailor) | 10 |
-| [@Interested-Deving-1896](https://github.com/Interested-Deving-1896) | 9 |
 | [@allcontributors[bot]](https://github.com/apps/allcontributors) | 2 |
 <!-- AI:end:contributors -->
 
